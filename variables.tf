@@ -2,10 +2,10 @@
 // AWS region that everything will be
 // created in
 "aws_region" {
-variable
-default =
+  variable
+  default = "us-east-2"
 }
-"us-east-2"
+
 // This variable is to set the
 // CIDR block for the VPC
 variable "vpc_cidr_block" {
